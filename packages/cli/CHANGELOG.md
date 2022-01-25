@@ -1,5 +1,16 @@
 # @backstage/cli
 
+## 0.13.0
+
+### Minor Changes
+
+- 1ddf6d9d5a: Removes the previously deprecated `remove-plugin` command alongside the `--lax` option to `app:build`.
+
+### Patch Changes
+
+- c372a5032f: chore(deps): bump `jest-transform-yaml` from 0.1.1 to 1.0.0
+- 10086f5873: Upgraded `webpack`, `webpack-dev-server`,`fork-ts-checker-webpack-plugin`, `react-dev-utils`, and `react-hot-loader`. Since `ForkTsCheckerWebpackPlugin` no longer runs ESLint, we now include the `ESLintPlugin` from `eslint-webpack-plugin` if the `--check` flag is passed.
+
 ## 0.12.0
 
 ### Minor Changes

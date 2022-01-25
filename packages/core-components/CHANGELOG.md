@@ -1,5 +1,12 @@
 # @backstage/core-components
 
+## 0.8.6
+
+### Patch Changes
+
+- 7346b5fb96: chore(deps): bump `rc-progress` from 3.1.4 to 3.2.4
+- 9abb28bb22: Fix issue where component types are not recognized causing the `MobileSidebar` to not render as intended.
+
 ## 0.8.5
 
 ### Patch Changes
